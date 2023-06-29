@@ -1,0 +1,75 @@
+h1 {
+    color: pink;
+    text-align: center;
+    width: 700px;
+}
+
+ .bg-blue{
+ background-color: blue;
+ }
+
+ .curve{
+    border-radius: 20px;
+ }
+
+
+ .bg-green{
+    background-color: green;
+ }
+
+
+
+ #ebook{
+    color:white;
+ }
+
+ #tree{
+    padding:34px;
+ }
+
+
+ #top{
+    color:red;
+ }
+
+
+   h1 #ebook{
+      border:25px solid green;
+   }
+   
+
+   div p{
+      border:25px solid orange;
+   }
+
+
+   section div p{
+      color:red;
+   } 
+
+
+
+   section div p p{
+      color:blue;
+   }
+
+
+   div, p, span, .collins{
+      color:blue;
+   }
+
+   div p, section, div, .collins p{
+      color:green;
+   }
+
+#good .collins p, div div section p{
+   color:red;
+
+}
+
+
+*{
+   color:red;
+}
+
+
