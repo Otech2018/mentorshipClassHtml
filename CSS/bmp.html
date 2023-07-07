@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Margin & Padding </title>
+
+    <style>
+        p{
+            background-color: #cccccc;;
+        }
+
+        .bord{
+            /** 
+            border: thick[px] type==>[letter [dotted, dashed, solid, double, groove, ridge, outset,  inset] color==> [name,code] 
+            border: 20px inset #00ff00;
+
+            border-top:3px solid #ff0000;
+            border-bottom: 5px dashed #ff66aa;
+            border-right: 10px outset #0000ff;
+            border-left: 7px dotted #8800ff
+
+
+
+
+            border: 7px solid #00ccff;
+           border-top: 12px dashed #ff0000;
+           border-bottom: 5px double #00ccff;
+
+
+            border-radius: curve for top, curve for right, curve for bottom , curve for left
+
+
+            border-radius: 30px 70px 0px 12px ;
+            border-top-right-radius
+           border-top-left-radius
+
+           border-bottom-right-radius
+           border-bootm-left-radius
+           
+
+            border-bottom-right-radius:12px;
+
+           border-top-left-radius: 30px;
+            **/
+            height:100px;
+            width:300px;
+           border: 7px solid #00ccff;
+            border-top-right-radius: 90px;
+            
+        }
+
+          
+.tire{
+    height: 30px;
+    width:30px;
+    border: 5px dashed black;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #cccccc;
+    top:145px;
+    position: absolute;
+
+
+}
+
+.firtst_tire{
+    left: 60px;
+}
+
+.second_tire{
+    left: 200px;
+
+}
+
+.shape{
+    width: 500px;
+    height:500px;
+    background-color: blue;
+    border-radius: 300px 200px 300px 0px;
+}
+
+img{
+    position: absolute;
+    left: 120px;
+    top:270px;
+    width: 300px;
+    height: 300px;
+    border-radius: 200px 200px 200px 0px;;
+}
+    </style>
+</head>
+<body>
+
+
+    <p>
+
+        <button> Go </button>
+
+    </p>
+    
+
+    <p class="bord">
+        test
+    </p>
+
+    <div class="tire firtst_tire"></div>
+    <div class="tire second_tire"></div>
+
+
+
+    <div class="shape"></div>
+
+
+    <img src="def.jpeg" alt="">
+
+</body>
+</html>
