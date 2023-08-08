@@ -1,0 +1,1 @@
+alert('Hello programmers from externa js');

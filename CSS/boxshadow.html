@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow</title>
+
+    <style>
+        .shadowbox{
+            width: 300px;
+            height: 300px;
+            border: 3px solid green;
+            box-shadow: 5px 5px 5px 7px black inset, 
+                        10px 10px 10px 6px red inset, 
+                        15px 15px 15px 3px blue, 
+                        20px 20px 5px 5px black;
+
+            transition: 5s;
+        }
+
+
+        .shadowbox:hover{
+            box-shadow: 5px 5px 5px 7px black , 
+                        10px 10px 10px 6px red , 
+                        15px 15px 15px 3px blue, 
+                        20px 20px 5px 5px black;
+
+        }
+        
+    </style>
+</head>
+<body>
+    
+<br><br><br>
+
+<div class="shadowbox">
+    our class shadow
+    <!-- <marquee behavior="" direction="">Good Code</marquee> -->
+</div>
+
+</body>
+</html>
